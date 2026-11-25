@@ -1,0 +1,9 @@
+[project]
+name = "ai-video-tools"
+version = "0.1.0"
+description = "yt-dlp (descarga) + Whisper (transcripción) para el pipeline de vídeo"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp",
+    "faster-whisper",
+]

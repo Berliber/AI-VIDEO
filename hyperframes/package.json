@@ -1,0 +1,14 @@
+{
+  "name": "ai-video-hyperframes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "hyperframes preview",
+    "check": "hyperframes check",
+    "render": "hyperframes render",
+    "transcribe": "hyperframes transcribe"
+  },
+  "devDependencies": {
+    "hyperframes": "0.9.96"
+  }
+}

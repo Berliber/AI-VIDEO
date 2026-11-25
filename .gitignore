@@ -2,3 +2,13 @@ node_modules
 dist
 out
 .DS_Store
+# Python
+tools/.venv
+__pycache__
+# Media (pesado): sólo se versiona la estructura
+media/**/*
+!media/**/
+!media/**/.gitkeep
+# Renders de HyperFrames
+hyperframes/.hyperframes
+hyperframes/renders
